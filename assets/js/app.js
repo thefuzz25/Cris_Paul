@@ -21,11 +21,11 @@ const swiper = new Swiper('.myswiper', {
   effect: 'coverflow',
   grabCursor: true,
   centeredSlides: true,
-  slidePerView: 'auto',
+  slidesPerView: 'auto',
   coverflowEffect: {
     rotate: 50,
     stretch: 0,
-    depth: 200,
+    depth: 100,
     modifier: 1;
     slideShadows: true
   },
