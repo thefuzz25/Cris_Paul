@@ -201,7 +201,7 @@ button {
   column-gap: 1.5rem;
 }
 /*! === MAIN === */
-main{
+.main{
   overflow-x: hidden;
 }
 /*! === SHOWCASE === */
