@@ -74,9 +74,25 @@ button {
 }
 
 /*! === COMPONENTS === */
-
+.container{
+  margin-inline: auto;
+  padding-inline: 1.8rem;
+}
 /*! === HEADER === */
+.header{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: var(--body-bg-clr);
+  transition: padding .25s
+}
 
+.header.active{
+  padding-top: 1rem;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .1);
+}
 /*! === MAIN === */
 
 /*! === SHOWCASE === */
