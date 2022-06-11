@@ -182,7 +182,9 @@ button {
   column-gap: 1.5rem;
 }
 /*! === MAIN === */
-
+main{
+  overflow-x: hidden;
+}
 /*! === SHOWCASE === */
 
 /*! === PORTFOLIO === */
