@@ -78,6 +78,35 @@ button {
   margin-inline: auto;
   padding-inline: 1.8rem;
 }
+
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  transition: opacity .25s;
+}
+
+.btn:is(:hover, :focus){
+  opacity: .8;
+}
+
+.btn--action{
+  font-size: 1.8rem;
+  color: var(--light-clr);
+  line-height: 0;
+}
+
+.btn--text{
+  font-family: var(--title-font);
+  left: 1xp;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+}
+
+.btn--transparent{
+  color: var(--light-clr-2);
+  border-bottom: 2px solid var(--light-clr-2);
+  padding: 0;
+}
 /*! === HEADER === */
 .header{
   position: fixed;
@@ -122,6 +151,35 @@ button {
 
 .navbar__menu.active{
   transform: translateX(0);
+}
+
+.navbar__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__list-item{
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.navbar__list-item:last-of-type{
+  border-bottom: none;
+}
+
+.navbar__list-link{
+  display: block;
+  color: var(--light-clr);
+  padding: 1rem;
+  transition: opacity .25s;
+}
+
+.navbar__list-link:is(:hover, :focus){
+  opacity: .5;
+}
+
+.navbar__btn-group{
+  display: flex;
+  column-gap: 1.5rem;
 }
 /*! === MAIN === */
 
