@@ -5,7 +5,7 @@ const headerScroll = () => {
 }
 window.addEventListener('scroll', headerScroll);
 //! === OPEN AND CLOSE THE MENU ON HAMBURGER ICON CLICK ===
-const menutoggler = document.querySelector('#menu-toggler');
+const menuToggler = document.querySelector('#menu-toggler');
 const navbarMenu = document.querySelector('.navbar__menu');
 const toggleMenu = () => {
   navbarMenu.classList.toggle('active');
