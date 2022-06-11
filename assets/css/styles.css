@@ -93,6 +93,36 @@ button {
   padding-top: 1rem;
   box-shadow: 0 1px 0 rgba(255, 255, 255, .1);
 }
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__logo{
+  margin-right: 2.5rem;
+}
+
+.navbar__logo-image{
+  min-width: 10.2rem;
+}
+
+.navbar__menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  height: 100vh;
+  background-color: var(--dark-clr);
+  transform: translateX(-26rem);
+  z-index:999;
+  transition: transform .5s ease-in;
+}
+
+.navbar__menu.active{
+  transform: translateX(0);
+}
 /*! === MAIN === */
 
 /*! === SHOWCASE === */
