@@ -126,6 +126,15 @@ button {
   position: relative;
   z-index: 10;
 }
+
+.section-metadata{
+  padding-bottom: 6rem;
+  text-align: center;
+}
+
+.section-metadata__description{
+  margin-top: 1.3rem;
+}
 /*! === HEADER === */
 .header{
   position: fixed;
@@ -218,9 +227,26 @@ button {
   transform: translateY(-3rem);
 }
 /*! === PORTFOLIO === */
+.portfolio{
+  padding-top: 7.4rem;
+  padding-bottom: 12rem;
+}
 
+.portfolio__metadata{
+  padding-bottom: 4rem;
+  text-align: left;
+}
 /* --- SWIPER --- */
+.swiper-slide{
+  width: 30rem;
+  height: 30rem;
+}
 
+.swiper-slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 /*! === SERVICES === */
 
 /*! === ABOUT === */
