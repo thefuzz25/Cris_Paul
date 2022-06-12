@@ -135,6 +135,7 @@ button {
 .section-metadata__description{
   margin-top: 1.3rem;
 }
+
 /*! === HEADER === */
 .header{
   position: fixed;
@@ -209,10 +210,12 @@ button {
   display: flex;
   column-gap: 1.5rem;
 }
+
 /*! === MAIN === */
 .main{
   overflow-x: hidden;
 }
+
 /*! === SHOWCASE === */
 .showcase{
   padding-top: 14.5rem;
@@ -226,6 +229,7 @@ button {
   display: inline-block;
   transform: translateY(-3rem);
 }
+
 /*! === PORTFOLIO === */
 .portfolio{
   padding-top: 7.4rem;
@@ -236,6 +240,7 @@ button {
   padding-bottom: 4rem;
   text-align: left;
 }
+
 /* --- SWIPER --- */
 .swiper-slide{
   width: 30rem;
@@ -251,7 +256,41 @@ button {
 .swiper-pagination-bullet{
   background-color: var(--light-clr-2);
 }
-/*! === SERVICES === */
+
+/*! === SKILLS === */
+.skills{
+  background-color: var(--dark-clr);
+  padding-block: 7.4rem;
+}
+
+.skills__container{
+  display: grid;
+}
+
+.skills__image-wrapper{
+  margin-bottom: 6rem;
+}
+
+.skills__image-wrapper img{
+  margin-inline: auto;
+}
+
+.skills__list,
+.skills__list-divider{
+  display: grid;
+  gap: 5rem;
+}
+
+.skills__list-icon{
+  display: inline-block;
+  font-size: 3.6rem;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
+.skills__list-title{
+  margin-bottom: 1rem;
+}
 
 /*! === ABOUT === */
 
