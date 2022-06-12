@@ -136,6 +136,11 @@ button {
   margin-top: 1.3rem;
 }
 
+.btn-green{
+  background-color: var(--light-clr-2);
+  color: var(--dark-clr);
+}
+
 /*! === HEADER === */
 .header{
   position: fixed;
@@ -313,6 +318,23 @@ button {
 
 .about__information-description:last-of-type{
   margin-bottom: 4rem;
+}
+
+.about__images{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-inline: auto;
+}
+
+.about__images-image--top{
+  grid-column: 4/-1;
+  grid-row: 1/span 4;
+}
+
+.about__images-image--bottom{
+  grid-column: 1/7;
+  grid-row: 3/span 5;
+  z-index: 5;
 }
 
 /*! === BLOG === */
