@@ -119,7 +119,7 @@ button {
 .tittle--main{
   font-size: clamp(4.2rem, 8vw, 10rem);
   line-height: 1.2; 
-  background: url(../images/showcase_image_lg.png) center 37% no-repeat;
+  background: url(../images/showcase_image_lg.PNG) center 37% no-repeat;
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
