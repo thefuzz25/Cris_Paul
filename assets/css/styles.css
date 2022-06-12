@@ -293,6 +293,27 @@ button {
 }
 
 /*! === ABOUT === */
+.about{
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+}
+
+.about__container{
+  display: grid;
+  gap: 8rem;
+}
+
+.about__information-title{
+  margin-bottom: 2rem;
+}
+
+.about__information-description:first-of-type{
+  margin-bottom: 1.5rem;
+}
+
+.about__information-description:last-of-type{
+  margin-bottom: 4rem;
+}
 
 /*! === BLOG === */
 
