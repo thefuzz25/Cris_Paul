@@ -97,7 +97,7 @@ button {
 
 .btn--text{
   font-family: var(--title-font);
-  left: 1xp;
+  letter-spacing: 1px;
   font-size: 2rem;
   padding: 1rem 3rem;
 }
@@ -369,13 +369,167 @@ button {
 }
 
 /*! === FOOTER === */
+.footer{
+  background-color: var(--dark-clr);
+  padding-top: 10rem;
+  padding-bottom: 3rem;
+}
+
+.footer__group{
+  text-align: center;
+}
+
+.footer__title{
+  margin-bottom: 3rem;
+}
+
+.footer__separator{
+  display: block;
+  height: 1px;
+  background-color: var(--light-clr);
+  margin-top: 10rem;
+  margin-bottom: 8rem;
+}
+
+.footer__logo{
+  display: inline-block;
+}
+
+.footer__description{
+  margin-block: 3rem;
+}
+
+.footer__list{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.footer__list-link{
+  color: var(--light-clr-2);
+  font-size: 1.8rem;
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color .25s;
+}
+
+.footer__list-link:hover{
+  background-color: var(--light-clr-2);
+  color: var(--dark-clr);
+}
+
+.footer__copyright{
+  display: inline-block;
+  margin-top: 5rem;
+}
 
 /*! === MEDIA QUERIES === */
 /* --- Phones --- */
-@media (min-width: 31.25em) {}
+@media (min-width: 31.25em) {
+  .container{
+    max-width: 50rem;
+  }
+}
 
 /* --- Tablets --- */
-@media (min-width: 48em) {}
+@media (min-width: 48em) {
+  body{
+    font-size: 1.6rem;
+  }
+  
+  .container{
+    max-width: 76.8rem;
+  }
+  
+  #menu_toggler{
+    display: none;
+  }
+  
+  .navbar__menu{
+    position: initial;
+    width: initial;
+    height: initial;
+    background-color: transparent;
+    transform: initial;
+    transition: none;
+  }
+  
+  .navbar__list{
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .navbar__list-item{
+    border-bottom: none;
+  }
+  
+  .showcase__image{
+    transform: translateY(-5rem);
+  }
+  
+  .section-metadata{
+    grid-column: 1/-1;
+  }
+  
+  .section-metadata__description{
+    max-width: 70rem;
+    margin-inline: auto;
+  }
+  
+  .skills__image-wrapper{
+    margin-bottom: 0;
+  }
+  
+  .skills__image-wrapper img{
+    margin-inline: 0;
+  }
+  
+  .skills__list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .skills__list-item{
+    align-self: center;
+  }
+  
+  .skills__container,
+  .about__container,
+  .blog__container{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+  }
+  
+  .blog__post:first-of-type{
+    margin-bottom: 0;
+  }
+  
+  .footer__description{
+    max-width: 50rem;
+    margin-inline: auto;
+  }
+}
 
 /* --- Laptops/Desktops --- */
-@media (min-width: 64em) {}
+@media (min-width: 64em) {
+  .container{
+    max-width: 120rem;
+  }
+  
+  .tittle--main{
+    background-position: center 48%;
+  }
+  
+  .showcase__image{
+    transform: translateY(-8rem);
+  }
+  
+  .skills__container{
+    grid-template-columns: 1fr 1.5fr;
+  }
+}
