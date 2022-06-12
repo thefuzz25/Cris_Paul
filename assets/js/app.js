@@ -12,7 +12,7 @@ const toggleMenu = () => {
 }
 menuToggler.addEventListener('click', toggleMenu);
 // --- CLOSE MENU WHEN NAV-LINKS ARE CLICKED ---
-const linksToggleMenu = () => {
+const linksToggleMenu = (e) => {
   if(e.target.classList.contains('navbar__list-link')) navbarMenu.classList.remove('active');
 }
 window.addEventListener('click', linksToggleMenu);
