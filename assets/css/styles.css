@@ -152,7 +152,7 @@ body.light-theme{
 .tittle--main{
   font-size: clamp(4.2rem, 8vw, 10rem);
   line-height: 1.2; 
-  background: url(../images/background.PNG) center 0% no-repeat;
+  color: var(--light-clr-3);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -470,10 +470,6 @@ body.light-theme{
   .container{
     max-width: 50rem;
   }
-}
-
-.light-theme .navbar__menu{
-  background-color: var(--dark-clr);
 }
 
 /* --- Tablets --- */
