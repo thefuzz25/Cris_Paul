@@ -76,6 +76,8 @@ button {
 
 /*! === THEME === */
 .change-theme{
+  display: flex;
+  column-gap: 1.5rem;
   font-size: 1.25rem;
   cursor: pointer;
   transition: .3s;
