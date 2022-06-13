@@ -50,39 +50,7 @@ customElements.define('my-header', MyHeader)
 class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = '
-      <footer class="footer">
-          <div class="footer__container container">
-              <div class="footer__group">
-                  <h2 class="footer__title title tittle--main">Syed Faiz Reza Zaidi's Portfolio</h2> 
-                  <a href="mailto:sfrzaidi25@gmail.com" class="btn btn--text btn--transparent">Contact me</a>
-              </div>
-              <span class="footer__separator"></span>
-              <div class="footer__group">
-                  <a href="./index.html" class="footer__logo">
-                  <img src="./assets/images/logo.svg" alt="">
-                  </a>
-                  <p class="footer__description">Lorem ipsum
-                      dolor amet.</p>
-                  <ul class="footer__list">
-                      <li class="footer__list-item">
-                          <a href="" class="footer__list-link">
-                              <i class="ri-twitter-line"></i>
-                          </a>
-                      </li>
-                      <li class="footer__list-item">
-                          <a href="" class="footer__list-link">
-                              <i class="ri-instagram-line"></i>
-                          </a>
-                      </li>
-                      <li class="footer__list-item">
-                          <a href="" class="footer__list-link">
-                              <i class="ri-github-line"></i>
-                          </a>
-                      </li>
-                  </ul>
-                  <span class="footer__copyright">&copy; Faiz Zaidi 2022. All rights reserved.</span>
-              </div>
-          </div>
+      <footer>
       </footer>
     '
   }
