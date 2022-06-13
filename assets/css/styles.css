@@ -34,6 +34,7 @@ body {
   background-color: var(--body-bg-clr);
   color: var(--body-font-clr);
   overflow-x: hidden;
+  transition: .4s; /*For light mode*/
 }
 
 a {
@@ -78,7 +79,7 @@ button {
 .change-theme{
   display: flex;
   column-gap: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 3rem;
   cursor: pointer;
   transition: .3s;
 }
@@ -90,11 +91,24 @@ button {
 /*! === Variables LIGHT THEME === */
 body.light-theme{
   --light-clr: #000000;
-  --light-clr-2: #2e2e2e;
-  --light-clr-3: #595959;
-  --dark-clr: #bdbdbd;
-  --body-font-clr: #737373;
+  --light-clr-2: #595959;
+  --light-clr-3: #262626;
+  --dark-clr: #d9d9d9;
+  --body-font-clr: #0d0d0d;
   --body-bg-clr: #fff;
+}
+
+/*! === Change Light theme colours === */
+.light-theme .navbar__menu{
+  background-color: var(--dark-clr);
+}
+
+.light-theme .footer__list-link{
+  box-shadow: 0 2px 0 rgba(89, 89, 89, .1);
+}
+
+.light-theme .header.active{
+  box-shadow: 0 1px 0 rgba(89, 89, 89, .1);
 }
 
 /*! === COMPONENTS === */
