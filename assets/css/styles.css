@@ -169,8 +169,8 @@ button {
 }
 
 .navbar__logo-image{
-  min-width: 4rem;
-  max-width: 7rem;
+  min-width: 3rem;
+  max-width: 5rem;
 }
 
 .navbar__menu{
@@ -395,6 +395,7 @@ button {
 
 .footer__logo{
   display: inline-block;
+  max-width: 5rem;
 }
 
 .footer__description{
