@@ -74,6 +74,27 @@ button {
   background: #555;
 }
 
+/*! === THEME === */
+.change-theme{
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.change-theme:hover{
+  color: var(--light-clr-3);
+}
+
+/*! === Variables LIGHT THEME === */
+body.light-theme{
+  --light-clr: #000000;
+  --light-clr-2: #2e2e2e;
+  --light-clr-3: #595959;
+  --dark-clr: #bdbdbd;
+  --body-font-clr: #737373;
+  --body-bg-clr: #fff;
+}
+
 /*! === COMPONENTS === */
 .container{
   margin-inline: auto;
