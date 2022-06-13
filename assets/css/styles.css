@@ -33,7 +33,6 @@ body {
   line-height: 1.5;
   background-color: var(--body-bg-clr);
   color: var(--body-font-clr);
-  overflow-x: hidden;
   transition: .4s; /*For light mode*/
 }
 
@@ -153,10 +152,6 @@ body.light-theme{
   font-size: clamp(4.2rem, 8vw, 10rem);
   color: var(--light-clr);
   line-height: 1.2; 
-  background-size: cover;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
   position: relative;
   z-index: 10;
 }
@@ -252,7 +247,7 @@ body.light-theme{
 }
 
 /*! === MAIN === */
-.main{
+main{
   overflow-x: hidden;
 }
 
