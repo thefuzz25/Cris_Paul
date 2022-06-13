@@ -78,8 +78,8 @@ button {
 /*! === THEME === */
 .change-theme{
   display: flex;
-  column-gap: 1.5rem;
-  font-size: 3rem;
+  column-gap: 0.5rem;
+  font-size: 2.2rem;
   cursor: pointer;
   transition: .3s;
 }
@@ -99,10 +99,6 @@ body.light-theme{
 }
 
 /*! === Change Light theme colours === */
-.light-theme .navbar__menu{
-  background-color: var(--dark-clr);
-}
-
 .light-theme .footer__list-link{
   box-shadow: 0 2px 0 rgba(89, 89, 89, .1);
 }
@@ -474,6 +470,10 @@ body.light-theme{
   .container{
     max-width: 50rem;
   }
+}
+
+.light-theme .navbar__menu{
+  background-color: var(--dark-clr);
 }
 
 /* --- Tablets --- */
