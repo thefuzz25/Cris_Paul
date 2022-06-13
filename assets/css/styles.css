@@ -170,6 +170,7 @@ button {
 
 .navbar__logo-image{
   min-width: 10.2rem;
+  max-width: 15rem;
 }
 
 .navbar__menu{
