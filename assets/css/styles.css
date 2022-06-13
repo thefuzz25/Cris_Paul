@@ -151,8 +151,8 @@ body.light-theme{
 
 .tittle--main{
   font-size: clamp(4.2rem, 8vw, 10rem);
+  color: var(--light-clr);
   line-height: 1.2; 
-  color: var(--light-clr-3);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
