@@ -22,6 +22,10 @@ const swiper = new Swiper('.myswiper', {
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: 'auto',
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
   coverflowEffect: {
     rotate: 50,
     stretch: 0,
@@ -30,7 +34,8 @@ const swiper = new Swiper('.myswiper', {
     slideShadows: true
   },
   pagination: {
-    el: '.swiper-pagination'
+    el: '.swiper-pagination',
+    clickable: true,
   }
 });
 //! === LIGHT DARK THEME ===
@@ -62,6 +67,28 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+//! === TIMELINE TABS ===
+const tabs = document.querySelectorAll('[data-target]'),
+      tabContents = document.querySelectorAll('[data-content]')
+
+tabs.forEach(tab =>{
+  tab.addEventListener('click', () =>{
+    const target = document.querySelector(tab.dataset.target);
+
+    tabContents.forEach(tabContent =>{
+      tabContent.classList.remove('timeline__active');
+    });
+    target.classList.add('timeline__active');
+
+    tabs.forEach(tab =>{
+      tab.classList.remove('timeline__active');
+    });
+    tab.classList.add('timeline__active');
+  })
+})
+
+
 //! === SCROLL REVEAL ===
 const sr = ScrollReveal({
   distance: '50px',
