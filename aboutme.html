@@ -1,1 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Faiz Reza Zaidi's Portfolio_2</title>
+    <!-- REMIXICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <!--! === HEADER === --> 
+    <header class="header">
+        <nav class="navbar container">
+            <a href="./index.html" class="navbar__logo">
+                <img src="./assets/images/logo.svg" alt="" class="navbar__logo-image">
+            </a>
+            <!-- THEME CHANGE -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </nav>
+    </header>
+    <!--! === MAIN === -->
+    <main>
+        <!--! === ABOUT.html === -->
+        <section class="About" id="Aboutme">
+            <div class="About__container container">
+                <div class="About__information">
+                    <h1 class="About__information-title title">About Faiz Zaidi</h1>
+                    <p class="About__information-description">Faiz is an IIT aspirant and amateur artist who’s work flirts with both 
+                        sketches and words. When not behind a desk, he’s an avid reader and athlete. As of 2022, he's a second year student at FIITJEE Junior College, Hyd. 
+                        Currently studing PCM, but also with a bit of coding and all things creative.</p>
+                    <p class="About__information-description">He was born in 2005 in Dehradun. Being the son of an Olive Green, 
+                        he has wheels on his feet and his home is always spinning around! As such, he has attended 10+ schools 
+                        and many more ¡goodbyes and welcomes! than necessary… </p>
+                </div>
+                <div class="About__images">
+                    <img src="./assets/images/about_image_top.JPG" alt="" 
+                         class="about__images-image about__images-image--top">
+                    <img src="./assets/images/about_image_bottom.jpg" alt="" 
+                         class="about__images-image about__images-image--bottom">
+                         <a href="#" class="btn btn--text btn-green">Check out my Resume!</a>
+                </div>
+            </div>
+        </section>
+        <!--! === TIMELINE === -->
+        <section class="timeline" id="timeline">
+            <div class="timeline__container container">
+                <div class="timeline__tabs">
+                    <div class="timeline__button button--flex timeline__active" data-target="#education">
+                        <i class="ri-book-open-line"></i>
+                        EDUCATION
+                    </div>
+                    <div class="timeline__button button--flex" data-target="#journey">
+                        <i class="ri-map-pin-time-line"></i>
+                        JOURNEY
+                    </div>
+                </div>
+                <div class="timeline__sections">
+                    <!--! === TIMELINE SECTION 1 === -->
+                    <div class="timeline__content timeline__active" data-content id="education">
+                        <!--! === TIMELINE 1 (left) === -->
+                        <div class="timeline__data">
+                            <div>
+                                <h3 class="timeline__title">Higher Secondary School Certificate</h3>
+                                <span class="timeline__subtitle">FIITJEE Junior College, Hyderabad</span>
+                                <div class="timeline__calendar">
+                                    <i class="ri-calendar-2-line"></i>
+                                    August, 2021 - Present
+                                </div>
+                            </div>
+                            <div>
+                                <span class="timeline__rounder"></span>
+                                <span class="timeline__line"></span>
+                            </div>
+                        </div>
+
+                        <!--! === TIMELINE 2 (right) === -->
+                        <div class="timeline__data">
+                            <div></div>
+
+                            <div>
+                                <span class="timeline__rounder"></span>
+                                <span class="timeline__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="timeline__title">Secondary School Certificate</h3>
+                                <span class="timeline__subtitle">Army Public School, Bolarum</span>
+                                <div class="timeline__calendar">
+                                    <i class="ri-calendar-2-line"></i>
+                                    July, 2019 - June, 2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--! === TIMELINE 3 (left) === -->
+                        <div class="timeline__data">
+                            <div>
+                                <h3 class="timeline__title">Middle School Certificate</h3>
+                                <span class="timeline__subtitle">OP Jindal Modern School, Hisar</span>
+                                <div class="timeline__calendar">
+                                    <i class="ri-calendar-2-line"></i>
+                                    July, 2016 - June, 2019
+                                </div>
+                            </div>
+                            <div>
+                                <span class="timeline__rounder"></span>
+                                <span class="timeline__line"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--! === TIMELINE SECTION 2 === -->
+                    <div class="timeline__content" data-content id="journey">
+                        <!--! === TIMELINE 1 (left) === -->
+                        <div class="timeline__data">
+                            <div>
+                                <h3 class="timeline__title">Lorem ipsum</h3>
+                                <span class="timeline__subtitle">Dolor sit amet</span>
+                                <div class="timeline__calendar">
+                                    <i class="ri-calendar-2-line"></i>
+                                    TBD
+                                </div>
+                            </div>
+                            <div>
+                                <span class="timeline__rounder"></span>
+                                <span class="timeline__line"></span>
+                            </div>
+                        </div>
+
+                        <!--! === TIMELINE 2 (right) === -->
+                        <div class="timeline__data">
+                            <div></div>
+
+                            <div>
+                                <span class="timeline__rounder"></span>
+                                <span class="timeline__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="timeline__title">Lorem ipsum</h3>
+                                <span class="timeline__subtitle">Dolor sit amet</span>
+                                <div class="timeline__calendar">
+                                    <i class="ri-calendar-2-line"></i>
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--! === TIMELINE 3 (left) === -->
+                        <div class="timeline__data">
+                            <div>
+                                <h3 class="timeline__title">Lorem ipsum</h3>
+                                <span class="timeline__subtitle">Dolor sit amet</span>
+                                <div class="timeline__calendar">
+                                    <i class="ri-calendar-2-line"></i>
+                                    TBD
+                                </div>
+                            </div>
+                            <div>
+                                <span class="timeline__rounder"></span>
+                                <span class="timeline__line"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--! === FOOTER === -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__group">
+                <h2 class="footer__title title titttle--main">Syed Faiz Reza Zaidi's Portfolio</h2> 
+                <a href="mailto:sfrzaidi25@gmail.com" class="btn btn--text btn--transparent">Contact me</a>
+            </div>
+            <span class="footer__separator"></span>
+            <div class="footer__group">
+                <a href="./index.html" class="footer__logo">
+                <img src="./assets/images/logo.svg" alt="">
+                </a>
+                <p class="footer__description">Lorem ipsum
+                    dolor amet.</p>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </li>
+                </ul>
+                <span class="footer__copyright">&copy; Faiz Zaidi 2022. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <!-- SWIPERJS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
