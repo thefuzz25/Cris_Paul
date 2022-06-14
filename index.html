@@ -25,7 +25,7 @@
             <div class="navbar__menu">
                 <ul class="navbar__list">
                     <li class="navbar__list-item">
-                        <a href="index.html" class="navbar__list-link">Home</a>
+                        <a href="#home" class="navbar__list-link">Home</a>
                     </li>
                     <li class="navbar__list-item">
                         <a href="#portfolio" class="navbar__list-link">Portfolio</a>
@@ -37,7 +37,7 @@
                         <a href="#aboutme" class="navbar__list-link">About me</a>
                     </li>
                     <li class="navbar__list-item">
-                        <a href="#blog " class="navbar__list-link">Blog</a>
+                        <a href="#blog" class="navbar__list-link">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -74,6 +74,7 @@
             <div class="portfolio__container container">
                 <div class="porfolio__metadata section-metadata">
                     <h2 class="title">My Works</h2>
+                    <p class="section-metadata__description">All things Creative.</p>
                 </div>
                 <div class="swiper myswiper">
                     <div class="swiper-wrapper">
@@ -105,7 +106,36 @@
                             <img src="https://source.unsplash.com/508x508" alt="">
                         </div>
                     </div>
+
+                    <!-- Add Arrows-->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination-->
                     <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!--! === ABOUT === -->
+        <section class="about" id="aboutme">
+            <div class="about__container container">
+                <div class="about__information">
+                    <h2 class="about__information-title title">About Faiz Zaidi</h2>
+                    <p class="about__information-description">Faiz is an IIT aspirant and amateur artist who’s work flirts with both 
+                        sketches and words. When not behind a desk, he’s an avid reader and athlete.</p>
+                    <p class="about__information-description">As of 2022, he's a second year student at FIITJEE Junior College, Hyd. 
+                        Currently studing PCM, but also with a bit of coding and all things creative.</p>
+                        <a href="aboutme.html" class="btn btn--text btn-green">Learn more</a>
+                </div>
+                <div class="about__images">
+                    <img src="./assets/images/about_image_top.JPG" alt="" 
+                         class="about__images-image about__images-image--top">
+                    <img src="./assets/images/about_image_bottom.jpg" alt="" 
+                         class="about__images-image about__images-image--bottom">
                 </div>
             </div>
         </section>
@@ -122,14 +152,14 @@
                 <div class="skills__list">
                     <div class="skills__list-divider">
                         <article class="skills__list-item">
-                            <i class="ri-camera-line skills__list-icon"></i>
+                            <i class="ri-terminal-box-line skills__list-icon"></i>
                             <h3 class="skills__list-title title">Languages</h3>
                             <p class="skills__list-description">Python</p>
                             <p class="skills__list-description">HTML/CSS</p>
                             <p class="skills__list-description">Latex</p>
                         </article>
                         <article class="skills__list-item">
-                            <i class="ri-vidicon-2-line skills__list-icon"></i>
+                            <i class="ri-paint-brush-line skills__list-icon"></i>
                             <h3 class="skills__list-title title">Art Media</h3>
                             <p class="skills__list-description">Graphite & Charcoal</p>
                             <p class="skills__list-description">Calligraphy</p>
@@ -137,7 +167,7 @@
                         </article>
                     </div>
                     <article class="skills__list-item">
-                            <i class="ri-flight-takeoff-line skills__list-icon"></i>
+                            <i class="ri-tools-line skills__list-icon"></i>
                             <h3 class="skills__list-title title">Tools</h3>
                             <p class="skills__list-description">Procreate</p>
                             <p class="skills__list-description">Autodesk Sketchbook</p>
@@ -147,35 +177,13 @@
                 </div>
             </div>
         </section>
-        <!--! === ABOUT === -->
-        <section class="about" id="aboutme">
-            <div class="about__container container">
-                <div class="about__information">
-                    <h2 class="about__information-title title">About Faiz Zaidi</h2>
-                    <p class="about__information-description">Faiz is an IIT aspirant and amateur artist who’s work flirts with both 
-                        sketches and words. When not behind a desk, he’s an avid reader and athlete.</p>
-                    <p class="about__information-description">As of 2022, he's a second year student at FIITJEE Junior College, Hyd. 
-                        Currently studing PCM, but also with a bit of coding and all things creative.</p>
-                        <a href="#" class="btn btn--text btn-green">Learn more</a>
-                </div>
-                <div class="about__images">
-                    <img src="./assets/images/about_image_top.JPG" alt="" 
-                         class="about__images-image about__images-image--top">
-                    <img src="./assets/images/about_image_bottom.jpg" alt="" 
-                         class="about__images-image about__images-image--bottom">
-                </div>
-            </div>
-        </section>
         <!--! === BLOG === -->
         <section class="blog" id="blog">
             <div class="blog__container container">
                 <div class="blog__metadata section-metadata">
-                    <h2 class="title">Latest Blog Posts</h2>
-                    <p class="blog__metadata-description section-metadata__description">Whilst other children had posters of 
-                        Cristiano Ronaldo or The Beatles on their walls; Faiz preferred a window, looking at life through the opposite 
-                        end of a telescope. Maybe it was this exposure which shaped his thoughts and developed his imagination. 
-                        His perception and creativity are, in fact, the key elements that make his articles stand out from the rest. So read on!</p>
-                    <a href="#" class="btn btn--text btn--transparent">View all Posts</a>
+                    <h2 class="title">Latest of Blog</h2>
+                    <p class="blog__metadata-description section-metadata__description">My Words.</p>
+                    <a href="blog.html" class="btn btn--text btn-green">View all Posts</a>
                 </div>
                 <article class="blog__post post--left">
                     <picture class="blog__post-image">
@@ -200,7 +208,7 @@
     <footer class="footer">
         <div class="footer__container container">
             <div class="footer__group">
-                <h3 class="footer__title title tittle--main">Syed Faiz Reza Zaidi's Portfolio</h3> 
+                <h2 class="footer__title title titttle--main">Syed Faiz Reza Zaidi's Portfolio</h2> 
                 <a href="mailto:sfrzaidi25@gmail.com" class="btn btn--text btn--transparent">Contact me</a>
             </div>
             <span class="footer__separator"></span>
