@@ -150,7 +150,7 @@ body.light-theme{
 
 .tittle--main{
   font-size: clamp(4.2rem, 8vw, 10rem);
-  color: var(--light-clr);
+  color: var(--light-clr-2);
   line-height: 1.2; 
   position: relative;
   z-index: 10;
@@ -264,6 +264,8 @@ main{
 
 .showcase__image{
   display: inline-block;
+  max-height:500px;
+  max-width:500px;
   transform: translateY(-3rem);
 }
 
