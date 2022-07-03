@@ -3,6 +3,7 @@
 
 /*! === VARIABLES === */
 :root {
+  --tittle-clr: #e6e6e6
   --light-clr: #fff;
   --light-clr-2: #BED2C9;
   --light-clr-3: #E1E7DD;
@@ -89,6 +90,7 @@ button {
 
 /*! === Variables LIGHT THEME === */
 body.light-theme{
+  --tittle-clr: #666666;
   --light-clr: #000000;
   --light-clr-2: #595959;
   --light-clr-3: #262626;
@@ -150,7 +152,7 @@ body.light-theme{
 
 .tittle--main{
   font-size: clamp(4.2rem, 8vw, 10rem);
-  color: var(--light-clr-2);
+  color: var(--tittle-clr);
   line-height: 1.2; 
   position: relative;
   z-index: 10;
@@ -267,6 +269,7 @@ main{
   max-height:500px;
   max-width:500px;
   transform: translateY(-3rem);
+  padding-bottom: 10rem;
 }
 
 /*! === PORTFOLIO === */
