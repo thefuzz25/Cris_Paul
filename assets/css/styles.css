@@ -705,6 +705,7 @@ main{
   
   .showcase__image{
     transform: translateY(-5rem);
+    padding-bottom: 35rem;
   }
   
   .section-metadata{
