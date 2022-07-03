@@ -708,6 +708,11 @@ main{
     padding-bottom: 35rem;
   }
   
+  .portfolio{
+    padding-top: 7.4rem;
+    padding-bottom: 12rem;
+  }
+  
   .section-metadata{
     grid-column: 1/-1;
   }
@@ -766,6 +771,12 @@ main{
   
   .showcase__image{
     transform: translateY(-8rem);
+    padding-bottom: 35rem;
+  }
+  
+  .portfolio{
+    padding-top: 7.4rem;
+    padding-bottom: 12rem;
   }
   
   .skills__container{
