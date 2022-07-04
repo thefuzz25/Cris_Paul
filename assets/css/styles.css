@@ -90,7 +90,7 @@ button {
 
 /*! === Variables LIGHT THEME === */
 body.light-theme{
-  --tittle-clr: #666666;
+  --tittle-clr: #444946;
   --light-clr: #000000;
   --light-clr-2: #595959;
   --light-clr-3: #262626;
@@ -140,6 +140,13 @@ body.light-theme{
 .btn--transparent{
   color: var(--light-clr-2);
   border-bottom: 2px solid var(--light-clr-2);
+  padding: 0;
+}
+
+.btn--blog{
+  color: var(--light-clr-2);
+  border-bottom: 1.5px solid var(--light-clr-2);
+  border-right: 2px solid var(--light-clr-2);
   padding: 0;
 }
 
@@ -199,8 +206,8 @@ body.light-theme{
 }
 
 .navbar__logo-image{
-  min-width: 3rem;
-  max-width: 5rem;
+  min-width: 2rem;
+  max-width: 3.5rem;
 }
 
 .navbar__menu{
@@ -266,6 +273,7 @@ main{
 
 .showcase__image{
   display: inline-block;
+  transform: translateY(-3rem);
   max-height:700px;
   max-width:500px;
 }
@@ -720,6 +728,7 @@ main{
   
   .skills__image-wrapper img{
     margin-inline: 0;
+    padding-right: 3rem;
   }
   
   .skills__list{
