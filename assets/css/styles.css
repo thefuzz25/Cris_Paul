@@ -691,6 +691,10 @@ main{
     display: none;
   }
   
+  .navbar__btn-group{
+    display: none;
+  }
+  
   .navbar__menu{
     position: initial;
     width: initial;
