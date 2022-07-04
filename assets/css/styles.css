@@ -266,10 +266,8 @@ main{
 
 .showcase__image{
   display: inline-block;
-  max-height:500px;
+  max-height:700px;
   max-width:500px;
-  transform: translateY(-3rem);
-  padding-bottom: 35rem;
 }
 
 /*! === PORTFOLIO === */
@@ -705,14 +703,8 @@ main{
   
   .showcase__image{
     transform: translateY(-5rem);
-    padding-bottom: 35rem;
   }
-  
-  .portfolio{
-    padding-top: 7.4rem;
-    padding-bottom: 12rem;
-  }
-  
+
   .section-metadata{
     grid-column: 1/-1;
   }
@@ -771,12 +763,6 @@ main{
   
   .showcase__image{
     transform: translateY(-8rem);
-    padding-bottom: 35rem;
-  }
-  
-  .portfolio{
-    padding-top: 7.4rem;
-    padding-bottom: 12rem;
   }
   
   .skills__container{
