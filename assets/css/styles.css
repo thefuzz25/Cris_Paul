@@ -675,6 +675,17 @@ main{
   .skills__image-wrapper img{
     display: none;
   }
+  
+  .showcase__image{
+    display: inline-block;
+    transform: translateY(-3rem);
+    max-height:500px;
+    max-width:350px;
+  }
+
+  .skills{
+    padding-left: 1.5rem;
+  }
 }
 
 /* --- Tablets --- */
