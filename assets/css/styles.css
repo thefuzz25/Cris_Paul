@@ -400,7 +400,7 @@ main{
 
 /*! === BLOG === */
 .blog{
-  padding-top: 6rem;
+  padding-top: 8rem;
   padding-bottom: 12rem;
 }
 
@@ -679,7 +679,7 @@ main{
   .showcase__image{
     display: inline-block;
     transform: translateY(-3rem);
-    padding-inline: 3rem;
+    padding-inline: 5rem;
   }
 
   .skills{
