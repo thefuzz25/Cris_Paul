@@ -679,12 +679,11 @@ main{
   .showcase__image{
     display: inline-block;
     transform: translateY(-3rem);
-    max-height:500px;
-    max-width:350px;
+    padding-inline: 3rem;
   }
 
   .skills{
-    padding-left: 1.5rem;
+    padding-left: 2rem;
   }
 }
 
