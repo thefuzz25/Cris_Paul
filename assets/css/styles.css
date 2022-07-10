@@ -266,7 +266,7 @@ main{
 .showcase__container{
   text-align: center;
   -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-color: #E1E7DD;
 }
 
 .showcase__image{
@@ -725,6 +725,10 @@ main{
     transform: translateY(-5rem);
   }
 
+  .showcase__container{
+    -webkit-text-stroke-width: 1px;
+  }
+  
   .section-metadata{
     grid-column: 1/-1;
   }
