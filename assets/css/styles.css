@@ -159,7 +159,7 @@ body.light-theme{
 
 .tittle--main{
   font-size: clamp(4.2rem, 8vw, 10rem);
-  color: var(--tittle-clr);
+  color: var(--light-clr-3);
   line-height: 1.2; 
   position: relative;
   z-index: 10;
@@ -265,6 +265,7 @@ main{
 
 .showcase__container{
   text-align: center;
+  -webkit-text-stroke: 1px #fff;
 }
 
 .showcase__image{
