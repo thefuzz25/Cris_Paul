@@ -265,7 +265,8 @@ main{
 
 .showcase__container{
   text-align: center;
-  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: #fff;
 }
 
 .showcase__image{
