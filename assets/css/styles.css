@@ -84,7 +84,7 @@ button {
   transition: .3s;
 }
 
-.change-theme:hover{
+.change-theme:not(:hover){
   color: var(--light-clr-3);
 }
 
@@ -201,10 +201,10 @@ body.light-theme{
   justify-content: space-between;
 }
 
-.navbar__logo-image{
+/* .navbar__logo-image{
   min-width: 2rem;
   max-width: 3.5rem;
-}
+} */
 
 .navbar__menu{
   position: absolute;
