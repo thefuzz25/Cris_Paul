@@ -387,7 +387,7 @@ main{
 
 .skills__list-icon{
   display: inline-block;
-  color: var(--light-clr-2);
+  color: #999999;
   font-size: 3.6rem;
   line-height: 3rem;
   margin-bottom: 3rem;
